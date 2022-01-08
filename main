@@ -1,0 +1,25 @@
+import random
+
+list1 = list("qwertyuiopasdfghjklzxcvbnm"
+             "QWERTYUIOPASDFGHJKLZXCVBNM"
+             "1234567890!@#$%^&*()?")
+
+
+a = 8
+
+list1 = "".join(random.sample(list1, a))
+
+# A = random.sample(list1, a )
+# print(A)
+print(list1)
+
+
+# generate a password with length "passlen" with no duplicate characters in the password
+#                                                   #This code is also good <<< again not written by me lol :_: .
+# import random
+#
+# s = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+# passlen = 8
+# p =  "".join(random.sample(s,passlen ))
+# print (p)
+#
